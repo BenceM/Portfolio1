@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import useMediaQuery from "../hooks/useMediaQuery";
-import Link from "./Link";
+import Link from "../components/Link";
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
